@@ -1,444 +1,179 @@
 ---
-theme: seriph
-background: https://source.unsplash.com/collection/94734566/1920x1080
-class: text-center
-highlighter: shikiji
-lineNumbers: false
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
-drawings:
-  persist: false
-transition: slide-left
-title: Welcome to Slidev
-mdc: true
+layout: cover
+colorSchema: 'dark'
+background: /_49b9a2d6-17cf-4cd0-b78a-803402c67e89.jpeg
 ---
 
-# Welcome to Slidev
+# Spécialité N.S.I.
 
-Presentation slides for developers
+## Lycée de Cornouaille
 
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
-  </span>
-</div>
 
-<div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub" title="Open in GitHub"
-    class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon-logo-github />
-  </a>
-</div>
 
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
 
----
-transition: fade-out
----
 
-# What is Slidev?
-
-Slidev is a slides maker and presenter designed for developers, consist of the following features
-
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - anything possible on a webpage
-
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
-
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/guide/syntax#embedded-styles
--->
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
-<!--
-Here is another comment.
--->
-
----
-layout: default
----
-
-# Table of contents
-
-```html
-<Toc minDepth="1" maxDepth="1"></Toc>
-```
-
-<Toc maxDepth="1"></Toc>
-
----
-transition: slide-up
-level: 2
----
-
-# Navigation
-
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
-
-## Keyboard Shortcuts
-
-|     |     |
-| --- | --- |
-| <kbd>right</kbd> / <kbd>space</kbd>| next animation or slide |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd> | previous slide |
-| <kbd>down</kbd> | next slide |
-
-<!-- https://sli.dev/guide/animations.html#click-animations -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-  alt=""
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
 
 ---
 layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+image: /_1b6b1a6c-cd9a-461f-b117-74effbe09e66.jpeg
 ---
 
-# Code
+# La spécialité Informatique (NSI)
 
-Use code snippets and get the highlighting directly, and even types hover![^1]
 
-```ts {all|5|1-6|9|all} twoslash
-// TwoSlash enables TypeScript hover information and errors in markdown code blocks
-// Learn more at https://www.typescriptlang.org/dev/twoslash/
-function getUser(id: number): User {
-  return undefined as any
-}
-function saveUser(id: number, user: User) {
-  // ...
-}
-// ---cut---
-interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
-// ^?
-}
+- NSI = Numérique et Sciences Informatiques
 
-function updateUser(id: number, update: User) {
-  const user = getUser(id)
-  const newUser = { ...user, ...update }
-  saveUser(id, newUser)
-}
-```
+- Une spécialité qui permet de **découvrir** et d'**approfondir** les concepts et les méthodes de l'**informatique**
 
-<arrow v-click="[3, 4]" x1="400" y1="420" x2="230" y2="330" color="#564" width="3" arrowSize="1" />
+- Une discipline **transversale** et ouverte sur tous les domaines
 
-[^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
-
-<style>
-.footnotes-sep {
-  @apply mt-20 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
 
 ---
-
-# Components
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
-
-<!--
-Presenter note with **bold**, *italic*, and ~~striked~~ text.
-
-Also, HTML elements are valid:
-<div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
-</div>
--->
-
----
-class: px-20
----
-
-# Themes
-
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
-
-<div grid="~ cols-2 gap-2" m="t-2">
-
-```yaml
----
-theme: default
----
-```
-
-```yaml
----
-theme: seriph
----
-```
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true" alt="">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true" alt="">
-
-</div>
-
-Read more about [How to use a theme](https://sli.dev/themes/use.html) and
-check out the [Awesome Themes Gallery](https://sli.dev/themes/gallery.html).
-
----
-preload: false
----
-
-# Animations
-
-Animations are powered by [@vueuse/motion](https://motion.vueuse.org/).
-
-```html
-<div
-  v-motion
-  :initial="{ x: -80 }"
-  :enter="{ x: 0 }">
-  Slidev
-</div>
-```
-
-<div class="w-60 relative mt-6">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-square.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-circle.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-triangle.png"
-      alt=""
-    />
-  </div>
-
-  <div
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Slidev
-  </div>
-</div>
-
-<!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
-
-<div
-  v-motion
-  :initial="{ x:35, y: 40, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
-
-[Learn More](https://sli.dev/guide/animations.html#motion)
-
-</div>
-
----
-
-# LaTeX
-
-LaTeX is supported out-of-box powered by [KaTeX](https://katex.org/).
-
-<br>
-
-Inline $\sqrt{3x-1}+(1+x)^2$
-
-Block
-$$ {1|3|all}
-\begin{array}{c}
-
-\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &
-= \frac{4\pi}{c}\vec{\mathbf{j}}    \nabla \cdot \vec{\mathbf{E}} & = 4 \pi \rho \\
-
-\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} & = \vec{\mathbf{0}} \\
-
-\nabla \cdot \vec{\mathbf{B}} & = 0
-
-\end{array}
-$$
-
-<br>
-
-[Learn more](https://sli.dev/guide/syntax#latex)
-
----
-
-# Diagrams
-
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
-
-<div class="grid grid-cols-4 gap-5 pt-4 -mb-6">
-
-```mermaid {scale: 0.5, alt: 'A simple sequence diagram'}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-```mermaid
-mindmap
-  root((mindmap))
-    Origins
-      Long history
-      ::icon(fa fa-book)
-      Popularisation
-        British popular psychology author Tony Buzan
-    Research
-      On effectivness<br/>and features
-      On Automatic creation
-        Uses
-            Creative techniques
-            Strategic planning
-            Argument mapping
-    Tools
-      Pen and paper
-      Mermaid
-```
-
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
-
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
-
-</div>
-
-[Learn More](https://sli.dev/guide/syntax.html#diagrams)
-
----
-src: ./pages/multiple-entries.md
-hide: false
----
-
----
+theme: eloc
 layout: center
-class: text-center
 ---
 
-# Learn More
+# Objectifs de la NSI
 
-[Documentations](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
+
+Elle permet aux élèves de découvrir le monde du numérique et de l'informatique.
+
+La spécialité NSI vise à :
+  - **Initier** les élèves aux concepts et aux méthodes de l'informatique
+  - **Développer** leur capacité à analyser, modéliser et résoudre des problèmes
+  - **Stimuler** leur créativité et leur esprit critique
+  - **Sensibiliser** aux enjeux sociétaux et éthiques du numérique
+
+
+
+
+---
+
+# Pourquoi choisir la spécialité NSI 
+
+- La spécialité NSI s'adresse à tous les élèves qui s'intéressent au numérique et à l'informatique, qu'ils soient ou non scientifiques. Il n'y a pas de prérequis particuliers pour suivre cette spécialité, si ce n'est de la curiosité et de la motivation.
+- La spécialité NSI se marie très bien avec d'autres spécialités, comme les arts plastiques ou les sciences économiques et sociales. En effet, l'informatique n'est pas une discipline isolée, mais au contraire, elle est en interaction avec de nombreux autres domaines.
+
+---
+
+
+# Thèmes de la spécialité NSI
+
+- Le programme de la spécialité NSI couvre les grands thèmes de l'informatique, comme :
+  - Les langages de programmation
+  - Les structures de données
+  - Les algorithmes
+  - Les architectures matérielles
+  - Les réseaux
+  - La sécurité
+  - Les bases de données
+  - L'intelligence artificielle
+
+
+---
+
+# Pédagogie en NSI
+
+
+- La pédagogie de la spécialité NSI privilégie les **projets** et les mini-projets. 
+
+- Les élèves sont amenés à travailler en **petits groupes** sur des défis logiques à résoudre avec les langages de programmation les plus utilisés en informatique. 
+
+- Ils apprennent ainsi à concevoir des algorithmes, à coder des programmes, à tester et à déboguer leurs solutions. 
+
+- Ils sont aussi encouragés à être **créatifs**, à exprimer leurs idées, à partager leurs réalisations.
+
+
+---
+
+
+# Etudes après la spécialité NSI
+
+- La spécialité NSI prépare les élèves à poursuivre des études supérieures dans le domaine du numérique et de l'informatique, mais pas seulement. 
+
+En effet, la spécialité NSI permet de développer des compétences transversales, comme:
+- la logique, 
+- l'analyse, 
+- la résolution de problèmes, 
+- la communication, 
+- la collaboration, etc. 
+
+Ces compétences sont utiles dans tous les domaines d'études et de métiers.
+
+
+---
+
+# Métiers après la spécialité NSI
+
+
+- La spécialité NSI ouvre les portes de nombreux métiers liés au numérique et à l'informatique, mais pas seulement. 
+
+En effet, le numérique et l'informatique sont présents dans tous les secteurs d'activité, comme:
+
+- l'environnement,
+- la santé, 
+- l'éducation, 
+- la culture, 
+- le droit, etc. 
+
+
+La spécialité NSI permet donc de découvrir des **métiers variés et passionnants**.
+
+---
+
+# Métiers domaine informatique
+
+  - Développement logiciel
+  - Cybersécurité
+  - Réseaux - Télécom
+  - Ingénieur
+  - Data scientist
+  - Web designer
+  - Enseignement - Recherche
+  - Etc.
+
+
+---
+
+
+# Après la classe de première
+
+```mermaid {theme: 'neutral', scale:1.8}
+graph LR
+A[Spécialité NSI] --> B[Abandonner] 
+A --> C[Poursuivre] 
+B --> D[Contrôle continu coef 8] 
+C --> E[Epreuve coef 16] 
+```
+
+Epreuve terminale:
+- épreuve écrite de 3h30 sur 20 pour 3/4 de la note finale
+- épreuve pratique de 1h sur 20 pour 1/4 de la note finale
+
+---
+
+
+# Au lycée de Cornouaille 
+
+- Pour l'année scolaire 2023-2024
+  - Deux groupes de 1ères NSI: 46 élèves
+  - Un groupe de Terminales NSI: 13 élèves
+- Bac 2023: Moyenne 17,8 pour des notes de 16 à 19/20
+- Bac 2022: Moyenne 18,1 pour des notes de 14 à 20/20
+
+---
+
+
+# À retenir
+
+- La spécialité NSI, c'est :
+  - Une spécialité pour tous les élèves qui s'intéressent au numérique et à l'informatique, qu'ils soient ou non scientifiques
+  - Une spécialité qui se marie très bien avec d'autres spécialités.
+  - Une spécialité qui permet de développer des compétences transversales.
+  - Une spécialité qui privilégie les projets et les mini-projets, qui stimulent la créativité et l'esprit critique des élèves
+  - Une spécialité qui ouvre les portes de nombreux métiers liés au numérique et à l'informatique, mais pas seulement.
+
+
+
+
+
