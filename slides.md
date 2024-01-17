@@ -2,6 +2,7 @@
 layout: cover
 colorSchema: 'dark'
 background: /_49b9a2d6-17cf-4cd0-b78a-803402c67e89.jpeg
+transition: slide-left
 ---
 
 # Spécialité N.S.I.
