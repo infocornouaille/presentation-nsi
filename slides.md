@@ -1,18 +1,15 @@
 ---
 layout: cover
 colorSchema: 'dark'
-background: /_49b9a2d6-17cf-4cd0-b78a-803402c67e89.jpeg
+background: https://res.cloudinary.com/dpw19qolx/image/upload/v1705596832/_49b9a2d6-17cf-4cd0-b78a-803402c67e89.jpg
 transition: slide-left
 ---
 
-# Spécialité N.S.I.
+# Spécialité Informatique
+
+## N.S.I.
 
 ## Lycée de Cornouaille
-
-
-
-
-
 
 ---
 layout: image-right
@@ -30,37 +27,42 @@ image: /_1b6b1a6c-cd9a-461f-b117-74effbe09e66.jpeg
 
 
 ---
-theme: eloc
-layout: center
+layout: cover
+background: https://res.cloudinary.com/dpw19qolx/image/upload/v1562052876/nebulae-1199180_1920.jpg
 ---
 
 # Objectifs de la NSI
 
 
-Elle permet aux élèves de découvrir le monde du numérique et de l'informatique.
-
-La spécialité NSI vise à :
-  - **Initier** les élèves aux concepts et aux méthodes de l'informatique
-  - **Développer** leur capacité à analyser, modéliser et résoudre des problèmes
-  - **Stimuler** leur créativité et leur esprit critique
+  - **Initier** aux concepts et aux méthodes de l'informatique
+  - **Développer** la capacité à analyser, modéliser et résoudre des problèmes
+  - **Stimuler** la créativité et l'esprit critique
   - **Sensibiliser** aux enjeux sociétaux et éthiques du numérique
 
 
 
 
 ---
+layout: image-right
+image: /_53ca1f1e-5c7c-4186-a404-e553e9ee44ba.jpeg
+---
 
-# Pourquoi choisir la spécialité NSI 
+# Pourquoi choisir la NSI 
 
-- La spécialité NSI s'adresse à tous les élèves qui s'intéressent au numérique et à l'informatique, qu'ils soient ou non scientifiques. Il n'y a pas de prérequis particuliers pour suivre cette spécialité, si ce n'est de la curiosité et de la motivation.
-- La spécialité NSI se marie très bien avec d'autres spécialités, comme les arts plastiques ou les sciences économiques et sociales. En effet, l'informatique n'est pas une discipline isolée, mais au contraire, elle est en interaction avec de nombreux autres domaines.
 
+- **Pas de prérequis** : juste de la curiosité et de la motivation
+- **Complémentarité** avec d’autres spécialités : arts, sciences, économie, etc.
+- Des domaines **passionnants et variés**
+
+---
+layout: image-right
+image: https://res.cloudinary.com/dpw19qolx/image/upload/v1561731158/shahadat-shemul-gnyA8vd3Otc-unsplash.jpg
 ---
 
 
-# Thèmes de la spécialité NSI
+# Thèmes
 
-- Le programme de la spécialité NSI couvre les grands thèmes de l'informatique, comme :
+
   - Les langages de programmation
   - Les structures de données
   - Les algorithmes
@@ -72,54 +74,74 @@ La spécialité NSI vise à :
 
 
 ---
+layout: cover
+background: https://res.cloudinary.com/dpw19qolx/image/upload/v1562052876/nebulae-1199180_1920.jpg
+---
 
-# Pédagogie en NSI
+# Pédagogie de Projets
 
 
-- La pédagogie de la spécialité NSI privilégie les **projets** et les mini-projets. 
+- Privilégie les **projets** et les **mini-projets**. 
 
-- Les élèves sont amenés à travailler en **petits groupes** sur des défis logiques à résoudre avec les langages de programmation les plus utilisés en informatique. 
+- Travail en **petits groupes** sur des défis logiques à résoudre (en Python principalement). 
 
-- Ils apprennent ainsi à concevoir des algorithmes, à coder des programmes, à tester et à déboguer leurs solutions. 
+- Concevoir des algorithmes, coder des programmes, tester et déboguer les solutions. 
 
-- Ils sont aussi encouragés à être **créatifs**, à exprimer leurs idées, à partager leurs réalisations.
+- Etre **créatifs**, exprimer leurs idées, partager leurs réalisations.
 
 
 ---
+layout: cover
+background: https://res.cloudinary.com/dpw19qolx/image/upload/v1562052876/nebulae-1199180_1920.jpg
+---
 
+# Compétences transversales
 
-# Etudes après la spécialité NSI
+Compétences transversales utiles dans tous les domaines : 
 
-- La spécialité NSI prépare les élèves à poursuivre des études supérieures dans le domaine du numérique et de l'informatique, mais pas seulement. 
+- logique, 
+- analyse, 
+- résolution de problèmes, 
+- communication, 
+- coopération, ...
 
-En effet, la spécialité NSI permet de développer des compétences transversales, comme:
-- la logique, 
-- l'analyse, 
-- la résolution de problèmes, 
-- la communication, 
-- la collaboration, etc. 
+---
+layout: cover
+background: https://res.cloudinary.com/dpw19qolx/image/upload/v1562052876/nebulae-1199180_1920.jpg
+---
 
-Ces compétences sont utiles dans tous les domaines d'études et de métiers.
+# Formations supérieures
+
+La NSI ouvre les portes de nombreuses formations supérieures en informatique et numérique :
+
+- prépas, 
+- BUT, 
+- BTS, 
+- licences, 
+- écoles d’ingénieurs, ..
+
+---
+layout: cover
+background: https://res.cloudinary.com/dpw19qolx/image/upload/v1562052876/nebulae-1199180_1920.jpg
+---
+
+# Secteurs d'emploi
+
+Secteurs d’emploi variés et attractifs: 
+
+- Santé
+- Environnement
+- Education
+- Services
+- Industrie
+- Culture
+- Droit, ...
+
 
 
 ---
-
-# Métiers après la spécialité NSI
-
-
-- La spécialité NSI ouvre les portes de nombreux métiers liés au numérique et à l'informatique, mais pas seulement. 
-
-En effet, le numérique et l'informatique sont présents dans tous les secteurs d'activité, comme:
-
-- l'environnement,
-- la santé, 
-- l'éducation, 
-- la culture, 
-- le droit, etc. 
-
-
-La spécialité NSI permet donc de découvrir des **métiers variés et passionnants**.
-
+layout: cover
+background: https://res.cloudinary.com/dpw19qolx/image/upload/v1562052876/nebulae-1199180_1920.jpg
 ---
 
 # Métiers domaine informatique
@@ -128,7 +150,7 @@ La spécialité NSI permet donc de découvrir des **métiers variés et passionn
   - Cybersécurité
   - Réseaux - Télécom
   - Ingénieur
-  - Data scientist
+  - Science des données
   - Web designer
   - Enseignement - Recherche
   - Etc.
@@ -152,18 +174,31 @@ Epreuve terminale:
 - épreuve pratique de 1h sur 20 pour 1/4 de la note finale
 
 ---
+layout: cover
+background: https://res.cloudinary.com/dpw19qolx/image/upload/v1562052876/nebulae-1199180_1920.jpg
+---
 
 
 # Au lycée de Cornouaille 
 
 - Pour l'année scolaire 2023-2024
-  - Deux groupes de 1ères NSI: 46 élèves
+  - Deux groupes de 1ères NSI: 45 élèves
   - Un groupe de Terminales NSI: 13 élèves
 - Bac 2023: Moyenne 17,8 pour des notes de 16 à 19/20
 - Bac 2022: Moyenne 18,1 pour des notes de 14 à 20/20
 
 ---
+layout: cover
+background: https://res.cloudinary.com/dpw19qolx/image/upload/v1562052876/nebulae-1199180_1920.jpg
+---
 
+# Pour en savoir plus
+
+- Journée Porte Ouverte le **samedi 16 mars 2024**
+- Eduscol, ONISEP, ...
+
+
+---
 
 # À retenir
 
